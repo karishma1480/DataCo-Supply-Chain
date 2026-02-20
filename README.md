@@ -1,11 +1,12 @@
 # DataCo-Supply-Chain
 
 ## Problem Statement
-For this project, I chose the DataCo Global Supply Chain dataset from Kaggle to conduct a supply chain performance analysis. My objective was to address several key challenges, such as delivery performance and its effects on the sales. I designed this case study and utilized Tableau to develop the dashboard to provide an overview of supply chain performance, with a detailed view of late delivery risk across various dimensions.
-
+For this project, I chose the DataCo Global Supply Chain dataset from Kaggle to conduct a supply chain performance analysis. My objective was to address several key challenges, such as delivery performance and its effects on the sales. I designed this case study and utilized Tableau to develop the dashboard to provide an overview of supply chain performance, with a detailed view of late delivery risk across various dimensions. 
 
 ## Objective
 The goal of this analysis was to help enhance supply chain operations and optimize resource allocation by identifying inefficiencies and highlighting areas for improvement in shipping and delivery logistics. Through this dashboard, I aimed to present actionable insights into how DataCo Global can address these logistical challenges, improve delivery performance, and ultimately boost profitability.
+
+Tableau Dashboard: https://public.tableau.com/app/profile/karishma.nageshwaran/viz/DataCoSupplyChainPerformanceDashboard/DataCoSupplyChainOverviewDashboard
 
 ## Data Preparation
 I processed a dataset of 53 columns, selecting 41 relevant columns for analysis. I addressed missing values, removed irrelevant columns, and renamed fields for clarity (e.g., "Type" to "Payment Type"). I also extracted date components (date, month, year) to enable time-based analysis. After preprocessing the data in Python, I ingested it into a MySQL database for efficient analysis and integration with Tableau for supply chain and delivery performance visualization.
